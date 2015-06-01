@@ -2,10 +2,11 @@
 
 ## Especificaciones del equipo
 
-Procesador: AMD FX-6100
-Mother: M5A97pro
-Memoria: 8 Gb 1333mhz Kingstone
-HD: SATA 120gb
+- Procesador: AMD FX-6100
+- Mother: M5A97pro
+- Memoria: 8 Gb 1333mhz Kingstone
+- Video: SAPPHIRE ATI HD 7850 OC 2GB GDDR5
+- HD: SATA 120gb
 
 ## Pasos de instalacion
 
