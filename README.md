@@ -19,6 +19,15 @@ Instalar Niresh Maverics (http://hackintosh.zone/downloads/confirmation/75-nires
 - Una vez instalado vamos a una terminal, nos dirigimos a /System/Libraries/Extensions/AMD7000Controller.kext y editamos el archivo Info.plist. En el mismo reemplazamos donde fuere 0x68181002 por 0x68191002.
 - Luego editamos el archivo Into.plist de la ruta /System/Libraries/Extensions/AMDRadeonX4000.kext y tambien reemplazamos 0x68181002 por 0x68191002.
 - Vamos al Kext Wizard o Kext Utility y ejecutamos Reparar Permisos y Rebuild Cache.
-- Por ultimo hay un problema con el sonido que se escucha bajo y con interferencia de fondo. El unico metodo que encontre para mas o menos mitigarlo due ir a Perferencia de Sistema->Sonido->Salida y seleccionar "Line-out (Green Rear).
+- Por ultimo hay un problema con el sonido que se escucha bajo y con interferencia de fondo. El unico metodo que encontre para mas o menos mitigarlo due ir a Perferencia de Sistema->Sonido->Salida y seleccionar "Line-out (Green Rear)".
 
+## Comentarios
+- No puedo instalar Chimera sobre Chameleon. Supuestamente de ser posible esto podria instalar los drivers correspondientes de sonido por medio de Multibeast pero todavia lo tengo pendiente.
+- Para que el sistema arranque correctamente siempre hay que escribir en el prompt boot: "GraphicsEnabler=No"
+
+## Fuentes
+
+- Instalacion (https://blackghost9685.wordpress.com/)
+- Solucionar problema con la ATI HD 7850 (http://hackintosh.zone/hackintosh-topic/660-hd-7850-no-kext-loaded/)
+- Niresh Mavericks (http://hackintosh.zone/downloads/confirmation/75-niresh-mavericks-109-with-amd-intel/) hay que darle like en facebook o follow en twitter para poder descargar.
 
